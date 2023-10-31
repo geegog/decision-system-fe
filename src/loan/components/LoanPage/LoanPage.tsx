@@ -37,7 +37,7 @@ const LoanPage = () => {
                         pattern: codeRegex
                     }]}
                 >
-                    <Input defaultValue={'49002010976'} onChange={onPersonalCodeChanged} placeholder={'Personal code'}/>
+                    <Input onChange={onPersonalCodeChanged} placeholder={'Personal code'}/>
                 </Form.Item>
                 <Form.Item<ILoadFormField>
                     label="Loan Amount"
